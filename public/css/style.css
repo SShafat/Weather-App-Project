@@ -3,8 +3,49 @@
   https://codepen.io/official_naveen/pen/rgknI
 */
 
+/*
+  Modified by Safa Shafat
+*/
+
 .center{
   text-align: center;
+}
+
+#header {
+  font-weight: 700;
+  border: 1px;
+  font-size: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightseagreen;
+  color: black;
+  padding: 0px;
+  width: 2000px;
+  margin: 0 auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  
+}
+
+.headerImg{
+  top: 50;
+  
+}
+
+div{
+  top: 500;
+  
+}
+
+p.api {
+  font-size: 10px;
+  color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: lightseagreen; */
+  
 }
 
 body {
@@ -17,6 +58,7 @@ body {
   margin: 0 auto;
 }
 fieldset {
+  
   display: block;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
@@ -32,12 +74,13 @@ fieldset {
   border-image-repeat: initial;
   min-width: -webkit-min-content;
   padding: 30px;
+  position: relative;
 }
 .input, p {
   display: block;
   font-weight:300;
   width: 100%;
-  font-size: 25px;
+  font-size: 35px;
   border:0px;
   outline: none;
   width: 100%;
@@ -55,13 +98,22 @@ fieldset {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+
+
+
+
+p.outputs {
+  border: 1px solid black;
+  background-color: aliceblue;
+}
 .input:focus {
   border-bottom:1px solid #ddd;
 }
 .button {
-  background-color: transparent;
+  background-color:transparent;
   border:2px solid #ddd;
   padding:10px 30px;
+  font-size: 15px;
   width: 100%;
   min-width: 350px;
   -webkit-transition: all 0.1s ease-in-out;
@@ -74,5 +126,5 @@ fieldset {
   border:2px solid #515151;
 }
 p {
-  color: #E64A19;
+  color: dodgerblue;
 }
