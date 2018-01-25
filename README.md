@@ -8,6 +8,7 @@ Hosted on http://localhost:6789
 
 * Express
 * Body Parser
+* EJS
 * Request
 
 
