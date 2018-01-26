@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js"
   },
+  
   "author": "Safa Shafat",
   "license": "ISC",
   "dependencies": {
@@ -14,5 +16,6 @@
     "request": "^2.83.0",
     "yargs": "^11.0.0"
   }
+  
   
 }
