@@ -56,22 +56,22 @@
         
         <% if(weather !== null){ %>
           <p class="center outputs"><%= state %></p>
-          <h3>SUGGESTED OUTPUT</h3>
+          <h3 class="center">SUGGESTED OUTFIT</h3>
            
           <% if((temp < 60 ) && (temp > 20 )){ %>
-            <img src = "IMG_0586.jpg"/>
+            <img id="suggested" src = "IMG_0586.jpg"/>
            <% } %>
           
            <% if((temp > 60 ) && (temp < 70 )){ %>
-            <img src = "sporty.jpg"/>
+            <img id="suggested"  src = "sporty.jpg"/>
            <% } %>
           
           <% if(temp < 20 ){ %>
-            <img src = "IMG_0580.jpg"/>
+            <img id="suggested" src = "IMG_0580.jpg"/>
            <% } %>
           
           <% if(temp > 70 ){ %>
-            <img src = "beach.jpg"/>
+            <img id="suggested" src = "beach.jpg"/>
            <% } %>
           
           
