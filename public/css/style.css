@@ -99,7 +99,11 @@ fieldset {
   transition: all 0.1s ease-in-out;
 }
 
-
+#suggested{
+    display: block;
+    margin: 0 auto;
+    
+}
 
 
 p.outputs {
