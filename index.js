@@ -29,8 +29,9 @@ app.post('/', function (req, res) {
         let weatherText1 = weather.name;
         let weatherText2 = weather.sys.country;
         let weatherText3 = weather.weather[0].main;
+        let currentTemp = weather.main.temp;
         console.log(weatherText3);
-        res.render('index', {weather: weatherText, country:weatherText2, state: weatherText3,name: weatherText1, error: null});
+        res.render('index', {weather: weatherText, country:weatherText2, temp: currentTemp, state: weatherText3,name: weatherText1, error: null});
       }
     }
   });
