@@ -37,7 +37,7 @@ app.post('/', function (req, res) {
   });
 })
 
-app.listen(6789, function () {
+app.listen(process.env.PORT || 6789, function () {
   console.log('Now listening on port 6789')
 });
  
